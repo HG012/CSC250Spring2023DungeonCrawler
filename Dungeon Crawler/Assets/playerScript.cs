@@ -27,11 +27,22 @@ public class PlayerScript : MonoBehaviour
             this.rb.AddForce(this.northExit.transform.position * movementSpeed)
         }
 
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            this.rb.AddForce(this.southExit.transform.position * movementSpeed)
+        }
+      
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            this.rb.AddForce(this.eastExit.transform.position * movementSpeed)
+        }
+
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             MasterData.count++;
             SceneManager.LoadScene("DungeonRoom");
             SceneManager.LoadScene;
         }
+
     }
 }
