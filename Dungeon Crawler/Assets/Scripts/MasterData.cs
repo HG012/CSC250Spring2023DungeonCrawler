@@ -1,18 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class MasterData : MonoBehaviour
+//not a monobehaviour, monobehaviours always call start first and also call update function once per frame.
+//static methods get called by using name of class it was defined
+//constructors are not static, fields and methods can be static
+//can access by saying MasterData.count wherever in our code.
+public class MasterData
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static int count = 0;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
+   // public static int getCount()
+  //  {
+        //static context
+        //neither this keyword nor super exist 
+        return MasterData.count;  //cannot use this keyword because this is how an instance of an object refers to itself within itself.  Static avoids instances and is just one copy.
+  //  }
+ //   public int giveValue()
+  //  {
+        //non-static contest
+        //this keyword and super exist
+     //   return 14;
+ //   }
+

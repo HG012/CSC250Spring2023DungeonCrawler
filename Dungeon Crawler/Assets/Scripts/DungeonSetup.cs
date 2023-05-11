@@ -16,25 +16,7 @@ public class DungeonSetup : MonoBehaviour
     void Start()
     {
 
-        while this.northOn northOn == true
-        {
-            this.northExit.SetActive(true);
-        }
-
-        while this.southOn == true
-        {
-            this.southExit.SetActive(true);
-        }
-
-        while this.eastOn == true
-        {
-            this.northExit.SetActive(true;
-        }
-
-        while this.westOn == true
-        {
-            this.northExit.SetActive(true;
-        }
+      
     }
 
     // Update is called once per frame
