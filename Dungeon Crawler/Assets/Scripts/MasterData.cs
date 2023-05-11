@@ -2,16 +2,19 @@
 //static methods get called by using name of class it was defined
 //constructors are not static, fields and methods can be static
 //can access by saying MasterData.count wherever in our code.
+// non-monobehaviours cannnot be attatched to gameObjects
+
 public class MasterData
 {
     public static int count = 0;
+    public static string whereDidIComeFrom = "?";
 
 }
    // public static int getCount()
   //  {
         //static context
         //neither this keyword nor super exist 
-        return MasterData.count;  //cannot use this keyword because this is how an instance of an object refers to itself within itself.  Static avoids instances and is just one copy.
+       // return MasterData.count;  //cannot use this keyword because this is how an instance of an object refers to itself within itself.  Static avoids instances and is just one copy.
   //  }
  //   public int giveValue()
   //  {

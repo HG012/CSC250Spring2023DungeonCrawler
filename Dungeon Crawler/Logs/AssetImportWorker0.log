@@ -582,3 +582,39 @@ Received Import Request.
   path: Assets/Scripts/PlayerScript.cs
   artifactKey: Guid(0bc2f957fc0f14b9b9fe3fbbb40de863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/PlayerScript.cs using Guid(0bc2f957fc0f14b9b9fe3fbbb40de863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68921cba4ad8c7dce88a0dcd17edffc') in 0.002735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5984.126823 seconds.
+  path: Assets/Scripts/PlayerScript.cs
+  artifactKey: Guid(0bc2f957fc0f14b9b9fe3fbbb40de863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScript.cs using Guid(0bc2f957fc0f14b9b9fe3fbbb40de863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8970b61d96759b86957ed11d27154866') in 0.040986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 691.328328 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 0.409323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1758.816110 seconds.
+  path: Assets/Materials/Door.mat
+  artifactKey: Guid(938dc61014e434b578ffd1677a64249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Door.mat using Guid(938dc61014e434b578ffd1677a64249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db19e58f11e19ea033c9053065b864c2') in 0.403294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.482306 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(cfdd32a108d764165a400e01dba2cf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(cfdd32a108d764165a400e01dba2cf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2684946079e1216f81a34c1b39181b72') in 0.002015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.584023 seconds.
+  path: Assets/Scripts/CenterScript.cs
+  artifactKey: Guid(cfdd32a108d764165a400e01dba2cf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CenterScript.cs using Guid(cfdd32a108d764165a400e01dba2cf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d49c3d8bbfe7b6e5cef05af1ddaa23') in 0.001577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1174.747063 seconds.
+  path: Assets/Scripts/CenterScript.cs
+  artifactKey: Guid(cfdd32a108d764165a400e01dba2cf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CenterScript.cs using Guid(cfdd32a108d764165a400e01dba2cf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febbb2ec051824d6cf193fe5990c2360') in 0.003347 seconds 
