@@ -344,12 +344,17 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/CenterOfScene.cs"
 "Assets/playerScript.cs"
+"Assets/Scripts/CenterOfScene.cs"
 "Assets/Scripts/CenterScript.cs"
+"Assets/Scripts/Dungeon Room.cs"
 "Assets/Scripts/DungeonSetup.cs"
+"Assets/Scripts/Exit from Java.cs"
 "Assets/Scripts/MasterData.cs"
+"Assets/Scripts/Player...Java.cs"
 "Assets/Scripts/PlayerScript.cs"
+"Assets/Scripts/Room.Java copied over.cs"
+"Assets/Scripts/WorkerBee.cs"
 -langversion:9.0
 
 /deterministic

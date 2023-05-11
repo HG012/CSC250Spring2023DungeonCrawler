@@ -7,25 +7,64 @@ public class PlayerScript : MonoBehaviour
 {
     private Rigidbody rb;
     public GameObject northExit, southExit, eastExit, westExit;
+    public GameObject westStart, eastStart, northStart, southStart;
     public float movementSpeed = 40.0f;
-    public bool isMoving;
+    private bool isMoving;
+    private bool isExiting;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        print(MasterData.whereDidIComeFrom);
+
         this.rb = this.GetComponent<Rigidbody>();
-        print(MasterData.count);
-        MasterData md = new MasterData();
         this.isMoving = false;
+
+        if (!MasterData.whereDidIComeFrom.Equals ("?"))
+        {
+            if (MasterData.whereDidIComeFrom.Equals("north"))
+            {
+                this.gameObject.transform.position = this.southExit.transform.position;
+                this.rb.AddForce(Vector3.forward * 150.0f);
+            }
+            else if (MasterData.whereDidIComeFrom.Equals("south"))
+            {
+                this.gameObject.transform.position = this.northExit.transform.position;
+                this.rb.AddForce(Vector3.back * 150.0f);
+            }
+
+            else if (MasterData.whereDidIComeFrom.Equals("west"))
+            {
+                this.gameObject.transform.position = this.eastExit.transform.position;
+                this.rb.AddForce(Vector3.right * 150.0f);
+            }
+
+            else if (MasterData.whereDidIComeFrom.Equals("east"))
+            {
+                this.gameObject.transform.position = this.westExit.transform.position;
+                this.rb.AddForce(Vector3.left * 150.0f);
+            }
+
+
+
+        }
+
+        
 
     }
 
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Center"))
+        {
+            
+            this.rb.angularvelocity = Vector3.zero;
+        }
+    }
 
     private void OnTriggerExit(Collider other)
     {
-       if(other.gameObject.tag.Equals("exit"))
+       if(other.gameObject.CompareTag("Exit") && MasterData.isExiting)
         {
             if (other.gameObject == this.northExit)
             {
@@ -45,12 +84,16 @@ public class PlayerScript : MonoBehaviour
             {
                 MasterData.whereDidIComeFrom = "west";
             }
+            MasterData.isExiting = false;
 
 
 
             SceneManager.LoadScene("SampleScene")
         }
-        
+        else if (other.gameObject.CompareTag("Exit") && MasterData.isExiting)
+        {
+            MasterData.isExiting = true;
+        }
     }
 
 
