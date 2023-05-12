@@ -174,3 +174,9 @@ Received Import Request.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5e805fad7d82479f7f8d9aea152b3c') in 0.009424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5466.080888 seconds.
+  path: Assets/Materials/Monster Color1.mat
+  artifactKey: Guid(da2faf852a8b24f84b249f40d72b6346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Monster Color1.mat using Guid(da2faf852a8b24f84b249f40d72b6346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d0939e2e97ede0600e324c84113d7e') in 0.407233 seconds 

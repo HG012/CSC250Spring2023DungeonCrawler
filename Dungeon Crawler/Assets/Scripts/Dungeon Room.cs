@@ -84,61 +84,7 @@ public class Dungeon
         this.addRoom(h5);
         this.addRoom(s118b);
 
-        if(CenterOfScene = gameObject.entranceCenter)
-        {
-            show()
-             {
-                Exit e1;
-             }
-        }
-
-        if (CenterOfScene = gameObject.h1Center)
-        {
-            show()
-             {
-                Exit e2, Exit e3;
-             }
-        }
-
-        if (CenterOfScene = gameObject.h2Center)
-        {
-            show()
-             {
-                Exit e4, Exit e5, Exit e6;
-             }
-        }
-
-        if (CenterOfScene = gameObject.h3Center)
-        {
-            show()
-             {
-                Exit e7;
-             }
-        }
-
-        if (CenterOfScene = gameObject.h4Center)
-        {
-            show()
-             {
-                Exit e8, Exit e9;
-             }
-        }
-
-        if (CenterOfScene = gameObject.h5Center)
-        {
-            show()
-             {
-                Exit e10, Exit e11;
-             }
-        }
-
-        if (CenterOfScene = gameObject.s118bCenter)
-        {
-            show()
-             {
-                Exit e12;
-             }
-        }
+  
 
 
     }
