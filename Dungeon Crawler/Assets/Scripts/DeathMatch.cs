@@ -89,7 +89,14 @@ public class DeathMatch :
 
             if(this.currentAttackerGO == this.dude1GO)
             {
-                ((RefereeController)this.refereeInstance).playWinnerMusic;
+                ((RefereeController)this.refereeInstance).playWinnerMusic(Time.time = 5.0f);
+                
+            }
+
+            if (this.currentAttackerGO == this.dude2GO)
+            {
+                ((RefereeController)this.refereeInstance).playLoserJukeBox(Time.time = 5.0f);
+
             }
         }
 

@@ -582,3 +582,15 @@ Received Import Request.
   path: Assets/Music/endBattleMusic.mp3
   artifactKey: Guid(292b2f4a6831c4e7fb1b5fcc71224ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Music/endBattleMusic.mp3 using Guid(292b2f4a6831c4e7fb1b5fcc71224ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312eedfc267f401d4cbcefa01bcd347d') in 0.010437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18865.448188 seconds.
+  path: Assets/Music/jjba-pillar-men2.mp3
+  artifactKey: Guid(b6c43194a883645fd83bbb2ce12c32fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/jjba-pillar-men2.mp3 using Guid(b6c43194a883645fd83bbb2ce12c32fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88330f1fd63a3fa2029cb7c9e00f2ee7') in 0.052676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 386.991333 seconds.
+  path: Assets/Music/Heartbreaking.mp3
+  artifactKey: Guid(68d295f2edde148a7ae7f14c67d4253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Heartbreaking.mp3 using Guid(68d295f2edde148a7ae7f14c67d4253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faad1a75fb9d27088b3fcd168fe26ed') in 0.015949 seconds 

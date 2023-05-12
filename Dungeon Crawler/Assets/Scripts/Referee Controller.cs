@@ -15,6 +15,7 @@ public class RefereeController : MonoBehaviour
     private Vector3 attackerOriginalPosition;
     private GameObject fightJukeBox;
     private GameObject winnerJukeBox;
+    private GameObject loserJukeBox;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +34,15 @@ public class RefereeController : MonoBehaviour
         this.winnerJukeBox.SetActive(true);
     }
 
- public  void updateScore()
+
+    public void playLoserMusic()
+    {
+        this.fightJukeBox.SetActive(false);
+        this.winnerJukeBox.SetActive(false);
+        this.loserJukeBox.SetActive(true);
+    }
+
+    public  void updateScore()
     {
         monsterSB.text = (this.theMonster.getData());
         this.playerSB.text = (MasterData.p.getData());
