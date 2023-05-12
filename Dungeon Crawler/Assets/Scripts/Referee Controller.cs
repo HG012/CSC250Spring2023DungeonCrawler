@@ -13,6 +13,8 @@ public class RefereeController : MonoBehaviour
     private Rigidbody currRigidBodyOfAttacker;
     private float attackMoveDistance = 2.5f;
     private Vector3 attackerOriginalPosition;
+    private GameObject fightJukeBox;
+    private GameObject winnerJukeBox;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,12 @@ public class RefereeController : MonoBehaviour
         MasterData.playerShouldAttack = true;
         StartCoroutine(DelayBeforeFight);
         
+    }
+
+    public void playWinnerMusic()
+    {
+        this.fightJukeBox.SetActive(false);
+        this.winnerJukeBox.SetActive(true);
     }
 
  public  void updateScore()

@@ -31,6 +31,27 @@ public class DeathMatch :
         
 }
 
+    private IEnumerator JumpCoroutine()
+    {
+        float duration = 60f;
+        float speed = 5f;
+        float startTime = Time.time;
+        Vector3 startPosition = this.currentAttackerGO.transform.position;
+
+        while(Time.time - startTime < duration)
+        {
+            float newY = startPosition.y + Mathf.Sin((Time.time - startTime) * speed) * 0.5f;
+            this.currentAttackerGO.transform.position = new Vector3(this.currentAttackerGO.transform.position.x, newY, this.currentAttcakerGO;
+
+            
+        }
+        yield return null;
+    }
+
+
+
+
+    //thread that works like workerbee
     IEnumerator MoveObjectRoutine()
     { 
 
@@ -56,17 +77,22 @@ public class DeathMatch :
         // this.refereeInstance.BroadcastMessage("updateScore");
         ((RefereeController)this.refereeInstance).updateScore();
 
+
+
         if(this.currentTarget.isDead())
         {
-            this.currentTargetGO.transform.Rotate(0, 180, 0);
-            this.currentAttackerGO.transform.Translate(0, 0, 5);
-            yield return new WaitForSeconds(0.25f);
-            this.currentAttackerGO.transform.Translate(0, 0, 0);
-            yield return new WaitForSeconds(0.25f);
-            MusicLooper(endBattleMusic);
+            this.currentTargetGO.transform.Rotate(new Vector3(180, 0, 0));
 
+            this.refereeInstance.StartCoroutine(JumpCoroutine());
 
+            ((RefereeController)this.refereeInstance).playWinnerMusic();
+
+            if(this.currentAttackerGO == this.dude1GO)
+            {
+                ((RefereeController)this.refereeInstance).playWinnerMusic;
+            }
         }
+
 
         else
         {
