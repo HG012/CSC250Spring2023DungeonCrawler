@@ -402,3 +402,141 @@ Received Import Request.
   path: Assets/Scenes/FIGHT SCENE.unity
   artifactKey: Guid(19cc76866537942d7a32ae1b1f9149b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/FIGHT SCENE.unity using Guid(19cc76866537942d7a32ae1b1f9149b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ab5da432440122156ae9ad34ce8128') in 0.002527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 869.192342 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0507b7d170b5442eb6bc458b24701427') in 0.002340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.112948 seconds.
+  path: Assets/Scripts/MonsterTrigger.cs
+  artifactKey: Guid(5f3ef00c2c0cd4167b5b690eadb7b4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MonsterTrigger.cs using Guid(5f3ef00c2c0cd4167b5b690eadb7b4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d65658ebf9c79e5adcfcc8ae9bbe77e') in 0.172934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.418891 seconds.
+  path: Assets/Scripts/MonsterTrigger.cs
+  artifactKey: Guid(5f3ef00c2c0cd4167b5b690eadb7b4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MonsterTrigger.cs using Guid(5f3ef00c2c0cd4167b5b690eadb7b4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedd5ba74609e0eb1f5c4754ac2805b9') in 0.002256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 387.789626 seconds.
+  path: Assets/Scripts/MonsterTrigger.cs
+  artifactKey: Guid(5f3ef00c2c0cd4167b5b690eadb7b4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MonsterTrigger.cs using Guid(5f3ef00c2c0cd4167b5b690eadb7b4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c149b38148a1466f81f9b02df4e030') in 0.002602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 277.636987 seconds.
+  path: Assets/Scripts/Inhabitant.cs
+  artifactKey: Guid(4317922530c444d779dc36e170b24f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inhabitant.cs using Guid(4317922530c444d779dc36e170b24f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27c51e0edf5aaecc4255204b85bd3c0') in 0.002174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 971.601177 seconds.
+  path: Assets/Scripts/Inhabitant.cs
+  artifactKey: Guid(4317922530c444d779dc36e170b24f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inhabitant.cs using Guid(4317922530c444d779dc36e170b24f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2bf55ac9eff2889d587164213c5c0c') in 0.003050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.353597 seconds.
+  path: Assets/Scripts/Monster.cs
+  artifactKey: Guid(a50b49ae0163048209bfbaa8bb7cb28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Monster.cs using Guid(a50b49ae0163048209bfbaa8bb7cb28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae14358778560ca5db1cb2fe90a39986') in 0.002645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1359.272428 seconds.
+  path: Assets/Scripts/Monster.cs
+  artifactKey: Guid(a50b49ae0163048209bfbaa8bb7cb28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Monster.cs using Guid(a50b49ae0163048209bfbaa8bb7cb28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ced0ab7ad299bcd68521f4bd873efb') in 0.001746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.171100 seconds.
+  path: Assets/Scripts/Music Looper.cs
+  artifactKey: Guid(65faaaa483222440b8f3e39be2a66f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Looper.cs using Guid(65faaaa483222440b8f3e39be2a66f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8d432b187d89d608c63be39077939b') in 0.001711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 570.487318 seconds.
+  path: Assets/Scripts/Music Looper.cs
+  artifactKey: Guid(65faaaa483222440b8f3e39be2a66f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Looper.cs using Guid(65faaaa483222440b8f3e39be2a66f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4482a83c6d9b81f419f8249bcc0ed61b') in 0.002303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 308.208088 seconds.
+  path: Assets/Monsters
+  artifactKey: Guid(d79231765d41248d2a8165729a544c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters using Guid(d79231765d41248d2a8165729a544c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660b9d1ff03e6a82ac0da2eec3941332') in 0.001811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.209345 seconds.
+  path: Assets/Scripts/Monster Controller.cs
+  artifactKey: Guid(4ba9d497c02ed4205a40828aa6897e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Monster Controller.cs using Guid(4ba9d497c02ed4205a40828aa6897e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a10aa8aa7fa1cb971b5d366f2b8562a') in 0.002673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 360.520501 seconds.
+  path: Assets/Scripts/Monster Controller.cs
+  artifactKey: Guid(4ba9d497c02ed4205a40828aa6897e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Monster Controller.cs using Guid(4ba9d497c02ed4205a40828aa6897e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4254d42b1553671e659ea12a8bb56f') in 0.002037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.517155 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069d44e717c489aa13781e35c2e2166d') in 0.002049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.347139 seconds.
+  path: Assets/Scenes/FIGHT SCENE.unity
+  artifactKey: Guid(19cc76866537942d7a32ae1b1f9149b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FIGHT SCENE.unity using Guid(19cc76866537942d7a32ae1b1f9149b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb3b7ca85a37476ef1f4b9b9d6b2ec8') in 0.002398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.053095 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e935bd6da8cf7ef7436fd262e6f7eb82') in 0.002024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.371436 seconds.
+  path: Assets/Scenes/FIGHT SCENE.unity
+  artifactKey: Guid(19cc76866537942d7a32ae1b1f9149b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FIGHT SCENE.unity using Guid(19cc76866537942d7a32ae1b1f9149b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f01220aaba653aca75b8041cb6e100') in 0.001654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.527338 seconds.
+  path: Assets/playerScript.cs
+  artifactKey: Guid(deafc5b8397364fdba75c6ff0ad04578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerScript.cs using Guid(deafc5b8397364fdba75c6ff0ad04578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae54652814a04587caae8132aab6fda') in 0.002197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.384303 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(98b6ab9cbd949433f83f77e7985fc0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(98b6ab9cbd949433f83f77e7985fc0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229ce033c95c308453ba10e37ebe204e') in 0.002004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.575009 seconds.
+  path: Assets/Scripts/Referee.cs
+  artifactKey: Guid(98b6ab9cbd949433f83f77e7985fc0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Referee.cs using Guid(98b6ab9cbd949433f83f77e7985fc0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721974813bf11d18bd2afc89016e0ae3') in 0.001996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 174.787529 seconds.
+  path: Assets/Scripts/Referee Controller.cs
+  artifactKey: Guid(98b6ab9cbd949433f83f77e7985fc0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Referee Controller.cs using Guid(98b6ab9cbd949433f83f77e7985fc0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755aa26b29410e672876e998dfae1d94') in 0.001570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1069.736812 seconds.
+  path: Assets/Scripts/Referee Controller.cs
+  artifactKey: Guid(98b6ab9cbd949433f83f77e7985fc0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Referee Controller.cs using Guid(98b6ab9cbd949433f83f77e7985fc0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e184fcae3311851cc23df305f0cad0') in 0.001759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.175640 seconds.
+  path: Assets/Scripts/DeathMatch.cs
+  artifactKey: Guid(61761adf9c6d746b2aee2b6cdd78338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DeathMatch.cs using Guid(61761adf9c6d746b2aee2b6cdd78338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccdde0e08538826e22a08fe26ac6ffa') in 0.003144 seconds 
