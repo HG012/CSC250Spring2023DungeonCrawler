@@ -9,8 +9,7 @@ public class MonsterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.theMonster = new Monster("goblin");
-        print(MasterData.p.getData());
+        
     }
 
     // Update is called once per frame

@@ -1,18 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class ExitfromJava : MonoBehaviour
+public class Exit
 {
-    // Start is called before the first frame update
-    void Start()
+    private string direction;
+    private Room destinationRoom;
+
+    public Exit(string direction, Room destinationRoom)
     {
-        
+        this.direction = direction;
+        this.destinationRoom = destinationRoom;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void addPlayer(Player p)
     {
-        
+        this.destinationRoom.addPlayer(p);
+    }
+
+    public string getDirection()
+    {
+        return this.direction;
     }
 }

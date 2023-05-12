@@ -546,3 +546,39 @@ Received Import Request.
   path: Assets/Scripts/DeathMatch.cs
   artifactKey: Guid(61761adf9c6d746b2aee2b6cdd78338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/DeathMatch.cs using Guid(61761adf9c6d746b2aee2b6cdd78338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7982c59991872275f91253956788225b') in 0.010385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41418.996361 seconds.
+  path: Assets/Scripts/Dice.cs
+  artifactKey: Guid(1b8b681990b7d40cfb1ef7bda43c3aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice.cs using Guid(1b8b681990b7d40cfb1ef7bda43c3aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275f2f33b867c912819d9484897edb89') in 0.013583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 244.776098 seconds.
+  path: Assets/Scripts/Dice.cs
+  artifactKey: Guid(1b8b681990b7d40cfb1ef7bda43c3aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice.cs using Guid(1b8b681990b7d40cfb1ef7bda43c3aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99ef8076786cf2b8d6d977ae8242a7e') in 0.001635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1570.047492 seconds.
+  path: Assets/Music
+  artifactKey: Guid(c207f5a32aeb24132a2a67f907276f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music using Guid(c207f5a32aeb24132a2a67f907276f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ae5adf8ab99950084677a466c96501') in 0.001551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.691618 seconds.
+  path: Assets/Music/Giorno Theme.mp3
+  artifactKey: Guid(292b2f4a6831c4e7fb1b5fcc71224ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Giorno Theme.mp3 using Guid(292b2f4a6831c4e7fb1b5fcc71224ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd280662c762e1d57f9023ae9bf6417d9') in 1.427937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.121882 seconds.
+  path: Assets/Music/End Battle Music.mp3
+  artifactKey: Guid(292b2f4a6831c4e7fb1b5fcc71224ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/End Battle Music.mp3 using Guid(292b2f4a6831c4e7fb1b5fcc71224ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05af34753282bc9a50ab6333673b7eb') in 0.010483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.327920 seconds.
+  path: Assets/Music/endBattleMusic.mp3
+  artifactKey: Guid(292b2f4a6831c4e7fb1b5fcc71224ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/endBattleMusic.mp3 using Guid(292b2f4a6831c4e7fb1b5fcc71224ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312eedfc267f401d4cbcefa01bcd347d') in 0.010437 seconds 

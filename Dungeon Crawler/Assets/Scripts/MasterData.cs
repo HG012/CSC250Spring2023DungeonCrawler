@@ -15,7 +15,7 @@ public class MasterData
     public static bool isExiting = true;
     private static bool isDungeoSetup = false;
     public static Dungeon cs = null;
-    public static PlayerScript p = null;
+    public static PlayerScript p = null;  //instance of player
     public static GameObject musicLooper = null;
 
     //If something is static refer to it using the name of the class in which it was defined.

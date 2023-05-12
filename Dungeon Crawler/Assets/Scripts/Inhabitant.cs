@@ -24,9 +24,27 @@ public Inhabitant(string name)
     }
 
 
+    public bool isDead()
+    {
+        return this.hp <= 0;
+    }
+
+    public int getAC()
+    {
+        return this.ac;
+    }
 
 
+    public int getDamage()
+    {
+        return this.damage;
+    }
 
+
+    public void takeDamage()
+    {
+        this.hp = this.hp - damage;
+    }
 
 }
 

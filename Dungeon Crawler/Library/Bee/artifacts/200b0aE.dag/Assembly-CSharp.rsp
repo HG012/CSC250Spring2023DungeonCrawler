@@ -349,6 +349,7 @@
 "Assets/Scripts/CenterOfScene.cs"
 "Assets/Scripts/CenterScript.cs"
 "Assets/Scripts/DeathMatch.cs"
+"Assets/Scripts/Dice.cs"
 "Assets/Scripts/Dungeon Room.cs"
 "Assets/Scripts/DungeonSetup.cs"
 "Assets/Scripts/Exit from Java.cs"

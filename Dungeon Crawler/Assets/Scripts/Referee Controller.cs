@@ -18,12 +18,17 @@ public class RefereeController : MonoBehaviour
     void Start()
     {
         this.theMonster = new Monster("goblin");
-        monsterSB.text = (this.theMonster.getData());
-        this.playerSB.text = (MasterData.p.getData());
+        this.updateScore(); //how a function is called in C#
         this.theMatch = new DeathMatch(MasterData.p, this.theMonster, this.playerGo, this.monsterGo, this); 
         MasterData.playerShouldAttack = true;
         StartCoroutine(DelayBeforeFight);
         
+    }
+
+ public  void updateScore()
+    {
+        monsterSB.text = (this.theMonster.getData());
+        this.playerSB.text = (MasterData.p.getData());
     }
 
     IEnumerator DelayBeforeFight()
