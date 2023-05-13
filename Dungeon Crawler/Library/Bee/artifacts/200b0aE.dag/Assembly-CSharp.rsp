@@ -353,6 +353,7 @@
 "Assets/Scripts/Dungeon Room.cs"
 "Assets/Scripts/DungeonSetup.cs"
 "Assets/Scripts/Exit from Java.cs"
+"Assets/Scripts/HealthyBar.cs"
 "Assets/Scripts/Inhabitant.cs"
 "Assets/Scripts/MasterData.cs"
 "Assets/Scripts/Monster Controller.cs"

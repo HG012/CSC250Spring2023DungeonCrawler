@@ -18,9 +18,15 @@ public class PlayerScript : MonoBehaviour
     {
         for (int i = 0; i < 10; i++)
         {
-            print(Random.Range(1.0f, 10.0f));
+            Random.Range(1.0f, 10.0f);
         }
-        this.updateExits();
+
+     
+           
+
+
+
+            this.updateExits();
 
         this.rb = this.GetComponent<Rigidbody>();
         this.isMoving = false;
@@ -102,24 +108,7 @@ public class PlayerScript : MonoBehaviour
     {
        if(other.gameObject.CompareTag("Exit") && MasterData.isExiting)
         {
-            if (other.gameObject == this.northExit)
-            {
-                MasterData.whereDidIComeFrom = "north";
-            }
-            else if (other.gameObject == this.southExit)
-            {
-                MasterData.whereDidIComeFrom = "south";
-            }
-
-            else if (other.gameObject == this.eastExit)
-            {
-                MasterData.whereDidIComeFrom = "east";
-            }
-
-            else if (other.gameObject == this.westExit)
-            {
-                MasterData.whereDidIComeFrom = "west";
-            }
+        
             MasterData.isExiting = false;
 
 
@@ -143,7 +132,8 @@ public class PlayerScript : MonoBehaviour
             if (this.currentRoom.hasExit("north")
         {
                 currentRoom.takeExit(MasterData.p, "north");
-                this.rb.AddForce(this.northExit.transform.position * movementSpeed)
+                MasterData.whereDidIComeFrom = "north";
+                this.rb.AddForce(this.northExit.transform.position * movementSpeed);
                 this.isMoving = true;
         }
         }
@@ -154,8 +144,9 @@ public class PlayerScript : MonoBehaviour
             if (this.currentRoom.hasExit("south")
                 {
                 currentRoom.takeExit(MasterData.p, "south");
-                this.rb.AddForce(this.southExit.transform.position * movementSpeed)
-            this.isMoving = true;
+                MasterData.whereDidIComeFrom = "south";
+                this.rb.AddForce(this.southExit.transform.position * movementSpeed);
+                this.isMoving = true;
             }
         }
         
@@ -165,7 +156,8 @@ public class PlayerScript : MonoBehaviour
             if (this.currentRoom.hasExit("east")
                 {
                 currentRoom.takeExit(MasterData.p, "east");
-                this.rb.AddForce(this.eastExit.transform.position * movementSpeed)
+                MasterData.whereDidIComeFrom = "east";
+                this.rb.AddForce(this.eastExit.transform.position * movementSpeed);
             this.isMoving = true;
             }
         }
@@ -175,9 +167,20 @@ public class PlayerScript : MonoBehaviour
             if (this.currentRoom.hasExit("west")
                 {
                 currentRoom.takeExit(MasterData.p, "west");
-                this.rb.AddForce(this.westExit.transform.position * movementSpeed)
+                MasterData.whereDidIComeFrom = "west";
+                this.rb.AddForce(this.westExit.transform.position * movementSpeed);
             this.isMoving = true;
             }
         }
+
+
+        IEnumerator PlayerHeal()
+        {
+            yield return new WaitForSeconds(3.0f);
+            MasterData.thePlayer.healHP(1);
+            StartCoroutine(PlayerHeal());
+        }
+
+
     }
 }

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class RefereeController : MonoBehaviour
 {
@@ -40,12 +42,29 @@ public class RefereeController : MonoBehaviour
         this.fightJukeBox.SetActive(false);
         this.winnerJukeBox.SetActive(false);
         this.loserJukeBox.SetActive(true);
+        StartCoroutine(ShowGameOverScene());
     }
 
     public  void updateScore()
     {
         monsterSB.text = (this.theMonster.getData());
         this.playerSB.text = (MasterData.p.getData());
+    }
+
+
+    IEnumerator ShowGameOverScene()
+    {
+        yield return new WaitForSeconds(2.0f);
+        SceneManager.LoadScene("GameOver");
+    }
+
+    IEnumerator ShowDungeonScene()
+    {
+        yield return new WaitForSeconds(2.0f);
+        MasterData.isExiting = false;
+        SceneManager.LoadScene("Sample Scene");
+
+
     }
 
     IEnumerator DelayBeforeFight()

@@ -8,6 +8,7 @@ using UnityEngine;
 
 public class MasterData
 {
+    public static bool canGetIntoFight = true;
     public static bool playerShouldAttack = false;
     public static bool monsterShouldAttack = false;
     public static int count = 0;
@@ -15,7 +16,7 @@ public class MasterData
     public static bool isExiting = true;
     private static bool isDungeoSetup = false;
     public static Dungeon cs = null;
-    public static PlayerScript p = null;  //instance of player
+    public static PlayerScript thePlayer = null;  //instance of player
     public static GameObject musicLooper = null;
 
     //If something is static refer to it using the name of the class in which it was defined.
@@ -30,7 +31,7 @@ public class MasterData
            MasterData.Dungeon cs = new Dungeon(100);
            MasterData.cs.populateCSDepartment();
 
-           MasterData.Player p = new Player("Mike");
+           MasterData.Player thePlayer = new Player("Mike");
            MasterData.cs.addPlayer(p);
            MasterData.isDungeoSetup = true;
         }

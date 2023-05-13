@@ -21,7 +21,7 @@ public class MonsterTrigger : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(this.enableFights)
+        if(this.enableFights && MasterData.canGetIntoFight)
         {
             int chanceToFight = Random.Range(1, 100);
 
@@ -29,6 +29,7 @@ public class MonsterTrigger : MonoBehaviour
             {
                 // print("Start a Fight");
                 SceneManager.LoadScene("FIGHT SCENE");
+                MasterData.canGetIntoFight = false;
 
                 //turn off music
                 Destroy(MasterData.musicLooper);

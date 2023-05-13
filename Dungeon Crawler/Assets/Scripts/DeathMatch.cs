@@ -81,6 +81,8 @@ public class DeathMatch :
 
         if(this.currentTarget.isDead())
         {
+          
+
             this.currentTargetGO.transform.Rotate(new Vector3(180, 0, 0));
 
             this.refereeInstance.StartCoroutine(JumpCoroutine());

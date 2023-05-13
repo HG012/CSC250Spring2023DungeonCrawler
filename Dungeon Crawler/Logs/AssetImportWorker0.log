@@ -594,3 +594,57 @@ Received Import Request.
   path: Assets/Music/Heartbreaking.mp3
   artifactKey: Guid(68d295f2edde148a7ae7f14c67d4253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Music/Heartbreaking.mp3 using Guid(68d295f2edde148a7ae7f14c67d4253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faad1a75fb9d27088b3fcd168fe26ed') in 0.015949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 525.649315 seconds.
+  path: Assets/Scenes/GameOver.unity
+  artifactKey: Guid(5901eee13e7384567955a6d936da9c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOver.unity using Guid(5901eee13e7384567955a6d936da9c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c7c205fd9adc9adebd5a2315360285') in 0.006263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 258.118525 seconds.
+  path: Assets/Scenes/s118b.unity
+  artifactKey: Guid(b53d473100c5c4669b5b79aa608caabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/s118b.unity using Guid(b53d473100c5c4669b5b79aa608caabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8bdd088c0ca3cf5e7450c190a941fb') in 0.002787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2095.008844 seconds.
+  path: Assets/Scenes/FIGHT SCENE.unity
+  artifactKey: Guid(19cc76866537942d7a32ae1b1f9149b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FIGHT SCENE.unity using Guid(19cc76866537942d7a32ae1b1f9149b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c21454ebe274b976433a662eae00ecd') in 0.002991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1468.268491 seconds.
+  path: Assets/Scenes/HealthBar.unity
+  artifactKey: Guid(efcc12d28911a4bd7ba1ec6b9ef00a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HealthBar.unity using Guid(efcc12d28911a4bd7ba1ec6b9ef00a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165a5a6a308ce38c44d2590b72d97e56') in 0.002026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.660227 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(f753c4e921d2c4195b05ad3a9d0259c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(f753c4e921d2c4195b05ad3a9d0259c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b649b4b754c76ad087d57e5f40b36fea') in 0.071970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.264851 seconds.
+  path: Assets/Materials/HealthBar Red.mat
+  artifactKey: Guid(f753c4e921d2c4195b05ad3a9d0259c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/HealthBar Red.mat using Guid(f753c4e921d2c4195b05ad3a9d0259c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfaebfdfe8428d1081fd785485bf1f9') in 0.012820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 272.662055 seconds.
+  path: Assets/playerScript.cs
+  artifactKey: Guid(deafc5b8397364fdba75c6ff0ad04578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerScript.cs using Guid(deafc5b8397364fdba75c6ff0ad04578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4745c1a6e2ddd070237f579bb2893d') in 0.008518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.487650 seconds.
+  path: Assets/Scripts/HealthyBar.cs
+  artifactKey: Guid(fbe20b4cc55884248ae7b6667308f45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthyBar.cs using Guid(fbe20b4cc55884248ae7b6667308f45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b48b73c63d4eb71207c833988958df') in 0.002136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 567.442509 seconds.
+  path: Assets/Scripts/HealthyBar.cs
+  artifactKey: Guid(fbe20b4cc55884248ae7b6667308f45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthyBar.cs using Guid(fbe20b4cc55884248ae7b6667308f45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478376a49c834ac85f79cdc0f13adee7') in 0.001668 seconds 
